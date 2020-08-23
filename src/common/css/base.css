@@ -1,0 +1,38 @@
+body,
+html {
+  line-height: 1;
+  font-family: 'Microsoft YaHei', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+}
+a {
+  color: #333;
+}
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+input::-webkit-input-placeholder {
+  color: #c5c8cf;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #c5c8cf;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #c5c8cf;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #c5c8cf;
+}
+/*# sourceMappingURL=base.css.map */
